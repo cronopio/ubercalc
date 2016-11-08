@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pereira - Uber Calculadora</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="principal" class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Uber Calculadora</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" style="padding:1em;">
+            <div class="panel panel-default">
+              <div class="panel-body bg-success">
+                <form>
+                  <div class="form-group">
+                    <label for="inputMinutos">Minutos</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">Mins.</div>
+                      <input type="text" class="form-control" id="inputMinutos" value="10">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputKilometros">Kilometros</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">Kms.</div>
+                      <input type="text" class="form-control" id="inputKilometros" value="3">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="totalTarifa">Tarifa a pagar</label>
+                    <div class="input-group input-group-lg">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control" id="totalTarifa">
+                    </div>
+                  </div>
+                </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" style="padding:1em;">
+            <div class="panel panel-default">
+              <div class="panel-body bg-info">
+                <h3>Configuración para Pereira - Colombia</h3>
+                <form>
+                  <div class="form-group">
+                    <label for="inputBase">Base</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control" id="inputBase" value="2000">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMinuto">Precio por Minuto</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">Min.</div>
+                      <input type="text" class="form-control" id="inputMinuto" value="150">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputKilometro">Precio por Kilometro</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">Km.</div>
+                      <input type="text" class="form-control" id="inputKilometro" value="450">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMinima">Total Minimo</label>
+                    <div class="input-group">
+                      <div class="input-group-addon">$</div>
+                      <input type="text" class="form-control" id="inputMinima" value="3800">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
